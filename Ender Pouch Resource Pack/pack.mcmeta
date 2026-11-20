@@ -1,0 +1,8 @@
+{
+    "id": "ender-pouch",
+    "pack": {
+        "description": "Ender Pouch",
+        "min_format": 97,
+        "max_format": 97
+    }
+}

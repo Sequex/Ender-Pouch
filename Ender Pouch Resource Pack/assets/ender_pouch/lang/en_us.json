@@ -1,0 +1,25 @@
+{
+    "ender_pouch.item.name": "Ender Pouch",
+        "ender_pouch.item.desc.1": "Items placed in this bundle are saved",
+        "ender_pouch.item.desc.2": "in a pocket dimension.",
+        "ender_pouch.item.desc.3": "When you %s an Ender Chest while holding",
+        "ender_pouch.item.desc.4": "this item, release an item stack from the",
+        "ender_pouch.item.desc.5": "pocket dimension.",
+        "ender_pouch.item.desc.6": "(If sneaking, release all items instead.)",
+    "ender_pouch.empty": "Your Ender Pouch storage is currently empty!",
+    "ender_pouch.reject_item": "This item cannot be sent to the Ender Pouch pocket dimension!",
+    "ender_pouch.release": "All Ender Pouch storage has been released!",
+    
+    "ender_pouch.uninstall.menu": "【 Ender Pouch Uninstall 】",
+    "ender_pouch.uninstall.menu.release_items": "- [Release All Items]",
+    "ender_pouch.uninstall.menu.release_items.hover": "Dumps every stored item into the ground, from every player's Ender Pouch storage.",
+    "ender_pouch.uninstall.menu.clear_data": "- [Clear All Data]",
+    "ender_pouch.uninstall.menu.clear_data.hover": "Erases all data, including stored items. You should run this last.",
+    "ender_pouch.uninstall.notif.release_items": "[Ender Pouch] All players' stored items has been dropped by %s!",
+    "ender_pouch.uninstall.notif.clear_data": "[Ender Pouch] All data has been wiped! You can now safely remove this datapack from your world folder.",
+
+    "subtitles.ender_pouch.item.pocket_fail": "Ender Pouch rejects item",
+    "subtitles.ender_pouch.item.pocket": "Ender Pouch stores item",
+    "subtitles.ender_pouch.item.release_all": "Items released",
+    "subtitles.ender_pouch.item.release_one": "Item released"
+}

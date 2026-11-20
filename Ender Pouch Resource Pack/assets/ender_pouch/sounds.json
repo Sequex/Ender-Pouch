@@ -1,0 +1,18 @@
+{
+    "item.ender_pouch.pocket": {
+        "sounds": ["ender_pouch:blank"],
+        "subtitle": "subtitles.ender_pouch.item.pocket"
+    },
+    "item.ender_pouch.pocket_fail": {
+        "sounds": ["ender_pouch:blank"],
+        "subtitle": "subtitles.ender_pouch.item.pocket_fail"
+    },
+    "item.ender_pouch.release_all": {
+        "sounds": ["ender_pouch:blank"],
+        "subtitle": "subtitles.ender_pouch.item.release_all"
+    },
+    "item.ender_pouch.release_one": {
+        "sounds": ["ender_pouch:blank"],
+        "subtitle": "subtitles.ender_pouch.item.release_one"
+    }
+}

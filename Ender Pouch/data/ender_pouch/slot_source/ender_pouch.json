@@ -1,0 +1,36 @@
+{
+    "type": "filtered",
+    "item_filter": {
+        "items": "#bundles",
+        "predicates": {
+            "custom_data": "{ender_pouch_item:1b}"
+        }
+    },
+    "slot_source": [
+        {
+            "type": "slot_range",
+            "source": "this",
+            "slots": "hotbar.*"
+        },
+        {
+            "type": "slot_range",
+            "source": "this",
+            "slots": "inventory.*"
+        },
+        {
+            "type": "slot_range",
+            "source": "this",
+            "slots": "player.crafting.*"
+        },
+        {
+            "type": "slot_range",
+            "source": "this",
+            "slots": "weapon.offhand"
+        },
+        {
+            "type": "slot_range",
+            "source": "this",
+            "slots": "player.cursor"
+        }
+    ]
+}

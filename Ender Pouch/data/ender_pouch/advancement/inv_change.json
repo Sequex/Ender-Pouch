@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "change_ender_pouch": {
+      "trigger": "inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": "{\"ender_pouch_item\":1b}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {"function": "ender_pouch:item/pocket"}
+}

@@ -1,0 +1,47 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "black_bundle",
+          "modifier": {
+            "type": "set_components",
+            "components": {
+              "item_name": {"translate":"ender_pouch.item.name","fallback":"Ender Pouch","color":"#18A387","bold":true},
+              "lore": [
+                {"translate":"ender_pouch.item.desc.1","fallback":"Items placed in this bundle are saved","color":"gray","italic":false,"with":[[
+                  {"text":"[","color":"white"},{"keybind":"key.attack","color":"aqua"},{"text":"]","color":"white"}
+                ]]},
+                {"translate":"ender_pouch.item.desc.2","fallback":"in a pocket dimension.","color":"gray","italic":false,"with":[[
+                  {"text":"[","color":"white"},{"keybind":"key.attack","color":"aqua"},{"text":"]","color":"white"}
+                ]]},
+                {"translate":"ender_pouch.item.desc.3","fallback":"When you %s an Ender Chest while holding","color":"gray","italic":false,"with":[[
+                  {"text":"[","color":"white"},{"keybind":"key.attack","color":"aqua"},{"text":"]","color":"white"}
+                ]]},
+                {"translate":"ender_pouch.item.desc.4","fallback":"this item, release an item stack from the","color":"gray","italic":false,"with":[[
+                  {"text":"[","color":"white"},{"keybind":"key.attack","color":"aqua"},{"text":"]","color":"white"}
+                ]]},
+                {"translate":"ender_pouch.item.desc.5","fallback":"pocket dimension.","color":"gray","italic":false,"with":[[
+                  {"text":"[","color":"white"},{"keybind":"key.attack","color":"aqua"},{"text":"]","color":"white"}
+                ]]},
+                {"translate":"ender_pouch.item.desc.6","fallback":"(If sneaking, release all items instead.)","color":"gray","italic":false,"with":[[
+                  {"text":"[","color":"white"},{"keybind":"key.attack","color":"aqua"},{"text":"]","color":"white"}
+                ]]}
+              ],
+              "enchantments": {"ender_pouch:ender_pouch":1},
+              "tooltip_display": {
+                "hidden_components": ["enchantments"]
+              },
+              "custom_model_data": {
+                "strings": ["ender_pouch.item"]
+              },
+              "custom_data": "{ender_pouch_item:1b,ender_pouch:{block:1b},smithed:{ignore:{functionality:1b,crafting:1b}}}"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

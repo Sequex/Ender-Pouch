@@ -1,0 +1,7 @@
+{
+    "type": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "type_specific/player": {"input": {"sneak": true}}
+    }
+}

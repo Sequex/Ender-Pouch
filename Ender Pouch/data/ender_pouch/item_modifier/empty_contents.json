@@ -1,0 +1,8 @@
+{
+    "type": "modify_contents",
+    "component": "bundle_contents",
+    "modifier": {
+        "type": "set_count",
+        "count": -1
+    }
+}

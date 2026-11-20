@@ -1,0 +1,1 @@
+function ender_pouch:uninstall/menu
